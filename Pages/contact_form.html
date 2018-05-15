@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../Styles/contact_form.css">
+    <link rel="stylesheet" href="../Styles/hover_links_form.css">
+
+</head>
+<body>
+
+<div class="center">
+    <ul>
+        <li><a href="home_page.html">Home</a></li>
+        <li><a href="idea.html">Idea</a></li>
+        <li><a href="problems.html">Problems</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+    </ul>
+</div>
+
+<div class="field">
+    <h3>Contact Us</h3>
+    <form action="../Pages/contacts.html">
+
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <select id="country" name="country">
+            <option value="" selected disabled hidden>Choose Country</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="bulgaria">Bulgaria</option>
+        </select>
+
+        <textarea placeholder="Your Message..."></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+</body>
+</html>

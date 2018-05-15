@@ -1,23 +1,35 @@
-body
-{
-    margin: 0px;
-    padding: 0px;
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    background: black;
+    font-size: 24px;
+    padding: 25px;
 }
-html
-{
-    overflow-y: hidden;
-}
-.bg
-{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("real.jpg");
-    background-position: center;
+.parallax{
+    background: url("../Pictures/rocket_idea.jpg") no-repeat center;
     background-size: cover;
-    height: 100vh;
+    background-attachment: fixed;
+    height: 500px;
 }
+
+.parallax2{
+    background: url("../source.gif") no-repeat center;
+    background-size: 300px 300px;
+    background-attachment: fixed;
+    height: 500px;
+}
+body{
+    background: url("../Pictures/brain_idea_picture.jpg");
+}
+p{
+    color: white;
+}
+
 .center
 {
     position: absolute;
-    top: 45%;
+    top: 18%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -85,18 +97,10 @@ ul li:nth-child(4):hover a
     box-shadow: 0px 0px 5px rgba(0,255,0,0.5), 0px 0px 10px rgba(0,255,0,1);
     background-color: rgba(0,255,0,0.5);
 }
-h1
-{
-    margin: 0px;
-    font-size: 60px;
-    color: #ffffff;
-    font-family: Arial;
-    font-weight: bold;
-    text-align: center;
-    padding: 10% 0% 0% 0%;
-}
+
 li {
     display: inline;
     float: left;
 }
+
 
